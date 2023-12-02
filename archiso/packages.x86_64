@@ -4,8 +4,10 @@
 amd-ucode
 arch-install-scripts
 base
+base-devel
 broadcom-wl-dkms
 btrfs-progs
+cryptsetup
 dhcpcd
 dialog
 dosfstools
@@ -15,8 +17,8 @@ grub
 inetutils
 intel-ucode
 linux-firmware
-linux-lts
-linux-lts-headers
+linux
+linux-headers
 lvm2
 mesa
 mesa-utils
@@ -54,13 +56,112 @@ wpa_supplicant
 xfsprogs
 xorg-server
 xorg-xinit
-
+wget
 
 #### ------> C A L A M A R E S <------ ####
 
+ckbcomp
+xkeyboard-config
+upower
+kcoreaddons5
+kconfig5
+ki18n5
+kservice5
+kwidgetsaddons5
+kpmcore
+boost-libs
+libpwquality
+squashfs-tools
+plasma-framework5
+hwinfo
+qt5-xmlpatterns
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
 
 
 #### ------> S N I G D H A O S <------ ####
 
 
 #### ------> W M S P E C I F I C <------ ####
+
+arandr
+chromium
+dconf-editor
+feh
+hyprland
+laptop-detect
+lshw
+meld
+polkit
+polkit-gnome
+qt5ct
+ripgrep
+rofi
+unace
+unrar
+unzip
+ttf-dejavu
+ttf-droid
+ttf-hack
+ttf-roboto
+ttf-roboto-mono
+xdg-desktop-portal-hyprland
+octopi
+octopi-notifier-qt5
+
+#### ------> F I R M W I R E <------ ####
+
+aic94xx-firmware
+dialog
+dnsutils
+libadwaita-without-adwaita-git
+logrotate
+ntp
+upd72020x-fw
+wd719x-firmware
+
+#### ------> N V I D I A <------ ####
+
+nvidia-dkms
+nvidia-utils
+nvidia-settings
+
+#### ------> A U D I O <------ ####
+alsa-firmware
+alsa-plugins
+alsa-lib
+alsa-utils
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gstreamer
+libdvdcss
+pulseaudio
+pulseaudio-alsa
+pavucontrol
+
+#### ------> B L U E T O O T H <------ ####
+
+blueberry
+bluez
+bluez-libs
+bluez-utils
+pulseaudio-bluetooth
+
+#### ------> N E T W O R K <------ ####
+
+avahi
+nss-mdns
+mobile-broadband-provider-info
+modemmanager
+networkmanager
+network-manager-applet
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+openresolv
+rtl8821cu-morrownr-dkms-git
