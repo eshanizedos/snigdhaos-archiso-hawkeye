@@ -2,6 +2,7 @@
 #### ------> C O M M O N <------ ####
 
 amd-ucode
+accountsservice
 arch-install-scripts
 base
 base-devel
@@ -23,6 +24,7 @@ lvm2
 mesa
 mesa-utils
 mkinitcpio-archiso
+mkinitcpio-firmware
 mkinitcpio-nfs-utils
 mkinitcpio-openswap
 mtools
@@ -55,6 +57,7 @@ wireplumber
 wpa_supplicant
 xfsprogs
 xorg-server
+xorg-apps
 xorg-xinit
 wget
 
@@ -89,6 +92,8 @@ arandr
 chromium
 dconf-editor
 feh
+gnome-screenshot
+gparted
 hyprland
 laptop-detect
 lshw
@@ -165,3 +170,24 @@ networkmanager-pptp
 networkmanager-vpnc
 openresolv
 rtl8821cu-morrownr-dkms-git
+
+#### ------> V I D S U P P O R T <------ ####
+
+mesa
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-video-vmware
+
+#### ------> G V F S S Y S <------ ####
+
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
+xdg-user-dirs
