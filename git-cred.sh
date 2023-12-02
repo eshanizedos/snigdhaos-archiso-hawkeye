@@ -2,11 +2,11 @@
 #set -e
 
 echo
-tput setaf 3
+# tput setaf 3
 echo "################################################################"
 echo "################### Start"
 echo "################################################################"
-tput sgr0
+# tput sgr0
 echo
 
 # Problem solving commands
@@ -43,9 +43,9 @@ sudo git config --system core.editor nano
 git remote set-url origin git@github.com-arc:$githubdir/$project
 
 echo
-tput setaf 3
+# tput setaf 3
 echo "################################################################"
 echo "################### End"
 echo "################################################################"
-tput sgr0
+# tput sgr0
 echo
